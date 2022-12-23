@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
 
   //to fetch the data from the backend
 
-  const response = await fetch ('https://davetonx.onrender.com', {
+  const response = await fetch ('https://davetonx.onrender.com/', {
     method: 'POST',
     headers: {
         'content-type': 'application/json'
